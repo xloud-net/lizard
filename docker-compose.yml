@@ -1,0 +1,13 @@
+version: '3'
+
+services: 
+  lizard-front:
+    container_name: nuxt
+    image: lizard-front
+    env_file:
+      - "docker-compose_lizard-front.env"
+    build:
+      context: "."
+      dockerfile: "lizard-front/Dockerfile"
+    ports:
+      - "5000:5000"
