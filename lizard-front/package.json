@@ -21,7 +21,7 @@
     "@types/node-fetch": "^2.5.7",
     "cross-env": "^7.0.2",
     "moment": "^2.26.0",
-    "nuxt": "^2.0.0",
+    "nuxt": "^2.15.8",
     "nuxt-property-decorator": "^2.7.2"
   },
   "devDependencies": {
